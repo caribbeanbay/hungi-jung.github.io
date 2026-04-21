@@ -5,7 +5,7 @@ Built with plain HTML/CSS.
 
 ## Structure
 - `index.html` — Home
-- `publications/` — Publications
-- `projects/` — Projects
-- `notes/` — Notes
-- `common.css` — Shared styles
+- `page` - publications, projects, notes
+- `file` - cv
+- `img` - image
+- `css` - design
