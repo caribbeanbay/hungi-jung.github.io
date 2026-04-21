@@ -1,0 +1,18 @@
+        .pub { margin-bottom: 20px; }
+        .pub-title { font-style: italic; margin-bottom: 2px; }
+        .pub-title a { text-decoration: none; }
+        .pub-title a:hover { text-decoration: underline; }
+        .pub-venue {
+            font-family: monospace;
+            font-size: 12px;
+            color: #888;
+        }
+        .pub-badge {
+            font-family: monospace;
+            font-size: 11px;
+            color: #a05c00;
+            border: 1px solid #e0b060;
+            padding: 1px 6px;
+            margin-left: 6px;
+            vertical-align: middle;
+        }

@@ -1,0 +1,19 @@
+        .entry { margin-bottom: 22px; }
+        .entry-header { font-weight: bold; font-size: 15px; margin-bottom: 2px; }
+        .entry-meta {
+            font-family: monospace;
+            font-size: 11.5px;
+            color: #888;
+            margin-bottom: 5px;
+        }
+        .entry ul { font-size: 14px; color: #333; margin-top: 4px; }
+        .entry li { margin-bottom: 3px; }
+        .tag {
+            font-family: monospace;
+            font-size: 11px;
+            color: #555;
+            border: 1px solid #ccc;
+            padding: 1px 5px;
+            margin-right: 4px;
+        }
+        .tags { margin-bottom: 5px; }

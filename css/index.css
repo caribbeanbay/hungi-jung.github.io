@@ -1,0 +1,41 @@
+        .profile {
+            display: flex;
+            gap: 28px;
+            align-items: flex-start;
+            margin-bottom: 32px;
+        }
+        .profile-placeholder {
+            width: 120px;
+            height: 150px;
+            border: 1px solid #ddd;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: monospace;
+            font-size: 11px;
+            color: #aaa;
+            flex-shrink: 0;
+            background: #fafafa;
+        }
+        .subtitle {
+            font-family: monospace;
+            font-size: 12px;
+            color: #666;
+            margin-bottom: 12px;
+            line-height: 1.7;
+        }
+        .contact-line {
+            font-size: 14px;
+            margin: 3px 0;
+            color: #333;
+        }
+        .bracket-links {
+            font-family: monospace;
+            font-size: 12.5px;
+            margin-top: 10px;
+        }
+        .bracket-links a {
+            text-decoration: none;
+            margin-right: 4px;
+        }
+        .bracket-links a:hover { text-decoration: underline; }
