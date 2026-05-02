@@ -5,3 +5,4 @@
 /file/*.out
 /file/*.synctex.gz
 /file/*.tex
+/file/*.synctex(busy)
