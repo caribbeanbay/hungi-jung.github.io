@@ -1,0 +1,106 @@
+.timeline {
+            position: relative;
+            margin-top: 8px;
+        }
+
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 72px;
+            top: 6px;
+            bottom: 6px;
+            width: 1px;
+            background: #d0d0d0;
+        }
+
+        .tl-item {
+            display: flex;
+            margin-bottom: 28px;
+            position: relative;
+        }
+
+        .tl-year {
+            font-family: monospace;
+            font-size: 12px;
+            color: #aaa;
+            width: 72px;
+            flex-shrink: 0;
+            padding-top: 3px;
+            text-align: right;
+            padding-right: 18px;
+        }
+
+        .tl-dot {
+            width: 7px;
+            height: 7px;
+            border-radius: 50%;
+            background: #1c1c1c;
+            flex-shrink: 0;
+            margin-top: 6px;
+            margin-right: 14px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .tl-dot.current {
+            background: #1a52c4;
+            box-shadow: 0 0 0 2px #fff, 0 0 0 3px #1a52c4;
+        }
+
+        .tl-dot.edu {
+            background: #fff;
+            border: 1.5px solid #1c1c1c;
+        }
+
+        .tl-content {
+            flex: 1;
+        }
+
+        .tl-title {
+            font-size: 14.5px;
+            font-weight: bold;
+            line-height: 1.4;
+            margin-bottom: 1px;
+        }
+
+        .tl-org {
+            font-size: 13.5px;
+            color: #333;
+            margin-bottom: 2px;
+        }
+
+        .tl-period {
+            font-family: monospace;
+            font-size: 11.5px;
+            color: #888;
+        }
+
+        .tl-badge {
+            font-family: monospace;
+            font-size: 10.5px;
+            color: #fff;
+            background: #1a52c4;
+            padding: 1px 6px;
+            margin-left: 6px;
+            vertical-align: middle;
+            letter-spacing: 0.03em;
+        }
+
+        .tl-badge.edu-badge {
+            background: #666;
+        }
+
+        .section-label {
+            font-family: monospace;
+            font-size: 11px;
+            color: #bbb;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            margin-bottom: 16px;
+            margin-top: 32px;
+            padding-left: 86px;
+        }
+
+        .section-label:first-of-type {
+            margin-top: 0;
+        }
